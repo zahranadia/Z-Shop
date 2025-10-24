@@ -60,4 +60,44 @@ header .icons a{
 header .icons a:hover{
   coloe:var(--red)
 }
+
+header #toggler{
+    display: none;
+}
+
+header .fas-bars{
+    font-size: 3rem;
+    color: #161616;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,3);
+    display: none;
+ }
   
+
+@media (max-width:991px){
+   html{
+  font-size: 55%;
+ }
+
+header{
+    padding:2rem;
+ }
+
+@media (max-width:768px){
+    header .fa-bars{
+        display: block;
+ }
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background: #F2F1ED;
+        border-top: .1rem solid rgba(0,0,0,.1);
+    }
+
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        background
+}
